@@ -1,0 +1,269 @@
+/*Top page box container w/ h1 & links*/
+ *{ 
+    box-sizing: border-box;
+    padding: .0;
+    margin: 0;
+}
+
+
+/*Entire page backgound color*/
+body {
+    background-color: #000000;
+}
+
+
+/*Top page box container text, background & text color*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/*Color of "Surf" & "r" text in heading*/
+.header h1 {
+    display: inline-block;
+    color:#76c8ff;
+    font-size: 48px;
+}
+
+
+/*Color of "face" in heading*/
+.header h1 .face {
+    color:rgb(255, 255, 255);
+}
+
+
+/*Top of page header container specs for size, font family and orientation*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+/*Haeder link markers */
+.header div ul {
+    list-style-type: none;
+}
+
+/*Header link formatting for space between links*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/*Header link color and style*/
+a {
+    color: #ffffff;
+    text-decoration: #76c8ff;
+}
+
+/* mouse over link */
+a:hover {color:#76c8ff;}
+
+
+
+/*Paragrapch content font size*/
+p {
+    font-size: 16px;
+}
+
+/*Large image under header size, margin, source and formatting*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./img/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*image,table,container orientation*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*image,table,container orientation*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*image,table,container orientation*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*orientation for right side page container*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*lead generation container text color & bottom margin*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*brand awareness container text color & bottom margin*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*cost managment container text color & bottom margin*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*lead generation container header text orientatoin*/
+.benefit-lead h3 {
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 21px;
+    outline: dashed black;
+    outline-width: 1px;
+}
+
+/*brand awareness container header text orientatoin*/
+.benefit-brand h3 {
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 21px;
+    outline: dashed black;
+    outline-width: 1px;
+}
+
+/*cost managment container header text orientatoin*/
+.benefit-cost h3 {
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 21px;
+    outline: dashed black;
+    outline-width: 1px;
+}
+
+/*lead generation image orientation*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*brand awareness image orientation*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*cost management image orientation*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*search engine optimization container size, color, orientation*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #0d659b;
+    color: #ffffff;
+    float: left;
+}
+
+/*online reputatoin managment container size, color, orientation*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #075383;
+    color: #ffffff;
+    float: right
+}
+
+/*social media marketing container size, color, orientation*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0d4364;
+    color: #ffffff;
+    float: left;
+}
+
+/*search engine optimization image size*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*online reputatoin managment image size*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*social media marketing image size*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*search engine optimization image orientation*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*online reputatoin managment image orientatoin*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*social media marketing image orientation*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*audio control orientation*/
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+/*footer orientation, font type, alignment and color*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/*footer second heading text size*/
+.footer h2 {
+    font-size: 20px;
+}
